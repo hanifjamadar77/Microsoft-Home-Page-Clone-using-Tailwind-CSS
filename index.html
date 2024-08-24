@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/Semibold/latest.woff2"
+        as="font" type="font/woff2" crossorigin="">
+    <link rel="stylesheet" href="input.css">
+    <link rel="icon" type="image/x-icon" href="icons8-microsoft-48.png">
+    <title>Microsoft – Cloud, Computers, Apps & Gaming</title>
+</head>
+
+<body>
+    <nav class="flex place-content-between align-middle aspect-auto md:px-16" >
+
+        <div class="hamburgur cursor-pointer hover:underline  w-8 h-10 flex-col place-content-center  mt-2 md:hidden" id="hamburgur" onclick="openManu()">
+            <div class="w-5 h-[0.5px] bg-gray-800 ml-2 mb-1"></div>
+            <div class="w-5 h-[0.5px] bg-gray-800 ml-2 mb-1"></div>
+            <div class="w-5 h-[0.5px] bg-gray-800 ml-2 "></div>
+        </div>
+
+        <div class="searchbar cursor-pointer hover:underline  flex md:order-4 my-4">
+            <span class="hidden md:block text-[14px]">Search</span><span><img class="w-6" src="search.png" alt="search"></span>
+        </div>
+
+        <div class="All Microsoft cursor-pointer hover:underline  hidden my-4 order-3 text-[14px] md:block">
+            All microsoft
+        </div>
+
+        <div class="microsoft md:order-1 md:flex">
+            <img class=" cursor-pointer hover:underline w-32 pt-1" src="logo.png" alt="logo" srcset="">
+            <div>
+            <div class=" hidden my-4 md:flex order-2 list-none place-content-between ml-7">
+                <li class=" cursor-pointer hover:underline ml-5 text-[14px]">Microsoft 365</li>
+                <li class=" cursor-pointer hover:underline ml-5 text-[14px]">Tearms</li>
+                <li class=" cursor-pointer hover:underline ml-5 text-[14px]">Copilot</li>
+                <li class=" cursor-pointer hover:underline ml-5 text-[14px]">Windows</li>
+                <li class=" cursor-pointer hover:underline ml-5 text-[14px]">Surface</li>
+                <li class=" cursor-pointer hover:underline ml-5 text-[14px]">Xbox</li>
+                <li class="cursor-pointer hover:underline ml-5 text-[14px]">Support</li>
+            </div>
+        </div>
+        </div>
+
+        <div class="shop flex my-4 md:order-5">
+            <span class="hidden cursor-pointer hover:underline text-[14px] md:block">Cart</span><span><img class="w-7"
+                    src="cart.png" alt="search"></span>
+        </div>
+
+        <div class="profile flex pr-2 md:order-6">
+            <span class="hidden cursor-pointer hover:underline my-4 text-[14px] md:block">Sign in</span><span><img class="w-7 my-3"
+                    src="profile.png" alt="search"></span>
+        </div>
+    </nav>
+    <div class="hidden"  id="submanu">
+    <div class="absolute w-full h-full px-2  bg-gray-200 delay-1000 md:hidden">
+    <div class="my-4 md:flex order-2 list-none space-y-8 place-content-between">
+        <li class=" cursor-pointer hover:underline ml-5 text-[12px]">Microsoft 365</li>
+        <li class=" cursor-pointer hover:underline ml-5 text-[12px]">Tearms</li>
+        <li class=" cursor-pointer hover:underline ml-5 text-[12px]">Copilot</li>
+        <li class=" cursor-pointer hover:underline ml-5 text-[12px]">Windows</li>
+        <li class=" cursor-pointer hover:underline ml-5 text-[12px]">Surface</li>
+        <li class=" cursor-pointer hover:underline ml-5 text-[12px]">Xbox</li>
+        <li class="cursor-pointer hover:underline ml-5 text-[12px]">Support</li>
+    </div>
+</div>
+</div>
+
+    <main class="md:flex ">
+        <div class="w-full md:order-2 z-10 lg:absolute">
+            <img class="w-max max-h-min md:hidden" src="md-main.png" alt="" srcset="">
+            <img class="w-max hidden lg:block" src="main.png" alt="">
+        </div>
+        <div class=" h-fit w-fit flex-col bg-white pl-6 md:order-1 z-20 lg:mt-32">
+            <button class="w-14 my-4 bg-yellow-400">New</button>
+            <h1 class="text-[22px] font-open_sans">Meet the lightning-fast Surface PCs</h1>
+            <p class="text-[16px]">Unlock next-gen AI features like Recall and Cocreator with this exceptionally
+                powerful laptop.</p>
+            <button class="w-32 h-8 my-4 text-white bg-blue-500">Learn more</button>
+            <hr class="md:hidden">
+        </div>
+    </main>
+
+    <section class="md:mt-56 justify-center  lg:flex space-x-16">
+        <div class="flex justify-center my-14 space-x-reverse md:space-x-14">
+            <div class="mr-4">
+                <img class="ml-14 w-16" src="microsoft365.png" alt="microsoft 365">
+                <h1 class="text-blue-600 cursor-pointer hover:underline">Choose your Microsoft 365</h1>
+            </div>
+            <div>
+                <img class="w-16" src="xbox.png" alt="Xbox">
+                <h1 class="text-blue-600 cursor-pointer hover:underline">Shop Xbox</h1>
+            </div>
+        </div>
+
+        <div class="flex justify-center my-14 space-x-reverse md:space-x-14 ">
+            <div class="mr-4">
+                <img class="ml-4 w-12" src="window11.png" alt="window 11">
+                <h1 class="text-blue-600 cursor-pointer hover:underline">Get Windows 11</h1>
+            </div>
+
+            <div>
+                <img class="w-16 h-12" src="explore.png" alt="Explore Surface">
+                <h1 class="text-blue-600 cursor-pointer hover:underline">Explore Surface devices</h1>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="md:p-12">
+        <div class="m-2  md:flex lg:space-x-6">
+            <div class="h-fit mb-6 shadow-xl md:w-[70rem] lg:h-[40rem]">
+                <img class="w-fit sm:w-full" src="card1.png" alt="">
+                <button class="ml-4 w-14 my-4 bg-yellow-400">New</button>
+
+                <div class="pl-4 md:h-[25rem] flex flex-col place-content-between ">
+                    <h1 class="text-[22px] font-open_sans">Surface Laptop, Copilot+ PC</h1>
+                    <p class="text-[16px]">Unlock next-gen AI experiences like Recall—so you can search your PC’s past
+                        to find the content you need.</p>
+                    <button class="cursor-pointer w-32 h-10 my-4 text-white rounded-sm bg-blue-600">Learn more</button>
+                </div>
+            </div>
+
+            <div class=" h-fit mb-6 shadow-xl  md:w-[70rem] lg:h-[40rem]">
+                <img class="w-fit sm:w-full" src="card2.png" alt="">
+
+                <div class="pl-4 md:h-[25rem] flex flex-col place-content-between mt-14">
+                    <h1 class="text-[22px] font-open_sans">Maximise the everyday with Microsoft 365</h1>
+                    <p class="text-[16px]">Get online protection, secure cloud storage and innovative apps designed to
+                        fit your needs – all in one plan.</p>
+                    <div>
+                        <button class="cursor-pointer w-32 h-10 my-4 text-white rounded-sm bg-blue-600">For one
+                            person</button>
+                        <h1 class="text-blue-500 cursor-pointer hover:underline">For up to six people ></h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="h-fit mb-6 shadow-xl  md:w-[70rem] lg:h-[40rem]">
+                <img class="w-fit sm:w-full" src="card3-replace.png" alt="">
+
+                <div class="pl-4 md:h-[25rem] flex flex-col place-content-between mt-14">
+                    <h1 class="text-[22px] font-open_sans">Xbox Games Showcase + Call of Duty: Black Ops 6 Direct</h1>
+                    <p class="text-[16px]">Save the date for Xbox Games Showcase, 9 June at 10:30 PM IST. Explore new
+                        games from Xbox, plus stay tuned for Call of Duty: Black Ops 6 Direct immediately following the
+                        event.</p>
+                    <button class="cursor-pointer w-fit h-10 my-4 text-white rounded-sm bg-blue-600">Learn more about
+                        the event</button>
+                </div>
+            </div>
+
+            <div class="h-fit mb-4 shadow-xl  md:w-[70rem] lg:h-[40rem]">
+                <img class="w-fit sm:w-full" src="card3.png" alt="">
+
+                <div class="pl-4  md:h-[25rem] flex flex-col place-content-between mt-14">
+                    <h1 class="text-[22px] font-open_sans">Xbox Series X </h1>
+                    <p class="text-[16px]">Next-gen performance in the smallest Xbox ever.</p>
+                    <button class="cursor-pointer w-fit bg-cover h-10 my-4 text-white rounded-sm bg-blue-600">Shop Xbox
+                        Series X</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section2 class="hidden lg:block">
+        <div class="flex justify-center place-items-center space-x-32 bg-gray-200 mx-20 my-10 h-[600px]">
+            <div>
+                <h1 class="text-[40px]">Xbox Series S</h1>
+                <p class="text-[18px] my-4">Next-gen performance in the smallest Xbox ever</p>
+                <button class="cursor-pointer w-[10rem] bg-cover h-10 my-4 text-white rounded-sm bg-blue-600">Shop Xbox
+                    Series S</button>
+            </div>
+            <div class="">
+                <img class="" src="Xbox-S.png" alt="" srcset="">
+            </div>
+        </div>
+    </section2>
+
+    <section class="md:p-12">
+        <h1 class="text-[25px] m-3 font-semibold md:text-[35px]">For business</h1>
+        <div class="m-2  md:flex lg:space-x-6">
+            <div class="h-[28rem] mb-6 shadow-xl md:w-[70rem] lg:h-[30rem]">
+                <img class="w-fit sm:w-full" src="B-card1.png" alt="">
+
+                <div class="pl-4 md:h-[15rem] flex flex-col place-content-between mt-14 ">
+                    <h1 class="text-[22px] font-open_sans">Surface for Business</h1>
+                    <p class="text-[16px]">No matter what you do, there’s a Surface to help you do it.</p>
+                    <button class="cursor-pointer w-32 h-10 my-4 text-white rounded-sm bg-blue-600">Shop now</button>
+                </div>
+            </div>
+
+            <div class=" h-fit mb-6 shadow-xl  md:w-[70rem] lg:h-[30rem]">
+                <img class="w-fit sm:w-full" src="B-card2.png" alt="">
+
+                <div class="pl-4 md:h-[15rem] flex flex-col place-content-between mt-14">
+                    <h1 class="text-[22px] font-open_sans">Get Microsoft Teams for free</h1>
+                    <p class="text-[16px]">Online meetings, chat and shared cloud storage – all in one place.</p>
+                    <div>
+                        <button class="cursor-pointer w-32 h-10 my-4 text-white rounded-sm bg-blue-600">Sign up for
+                            free</button>
+                        <!-- <h1 class="text-blue-500 cursor-pointer hover:underline">For up to six people ></h1> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="h-fit mb-6 shadow-xl  md:w-[70rem] lg:h-[30rem]">
+                <img class="w-fit sm:w-full" src="B-card3.png" alt="">
+
+                <div class="pl-4 md:h-[15rem] flex flex-col place-content-between mt-14">
+                    <h1 class="text-[22px] font-open_sans">Get Microsoft Teams for your business</h1>
+                    <p class="text-[16px]">Online meetings, chat, real-time collaboration, and shared cloud storage –
+                        all in one place.</p>
+                    <button class="cursor-pointer w-fit h-10 my-4 text-white rounded-sm bg-blue-600">Find the right plan
+                        for your business</button>
+                </div>
+            </div>
+
+            <div class="h-fit mb-4 shadow-xl  md:w-[70rem] lg:h-[30rem]">
+                <img class="w-fit sm:w-full" src="B-card4.png" alt="">
+                <button class="ml-4 w-14 my-4 bg-yellow-400">New</button>
+
+                <div class="pl-4 md:h-[15rem] flex flex-col place-content-between ">
+                    <h1 class="text-[22px] font-open_sans">Copilot for Microsoft 365</h1>
+                    <p class="text-[16px]">Save time and focus on the things that matter most with AI in Microsoft 365
+                        for business.</p>
+                    <button class="cursor-pointer w-fit bg-cover h-10 my-4 text-white rounded-sm bg-blue-600">Learn
+                        more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="social-media">
+        <div class="flex flex-col md:flex-row p-8 space-x-8">
+            <div>
+                <h1 class="text-[16px] md:text-[20px]">Follow Microsoft</h1>
+            </div>
+            <div class="flex space-x-6">
+                <img class="w-6 cursor-pointer md:w-8 h-8" src="facebook.png" alt="facebook">
+                <img class="w-6 cursor-pointer md:w-8 h-8" src="twitter.png" alt="twitter">
+                <img class="w-6 cursor-pointer md:w-12 h-8" src="tube.png" alt="you tube">
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full">
+        <div class="flex place-content-end sticky">
+            <button class="h-10 w-32 bg-slate-200 font-semibold cursor-pointer rounded-md active:bg-slate-400">Back to top</button>
+        </div>
+    </div>
+
+    <footer class="bg-gray-100 mt-8 px-6 lg:flex flex-row place-content-evenly">
+        <div class="mt-10 flex flex-col space-y-4">
+            <h1 class="text-[16px] font-semibold">What's new</h1>
+            <h2  class="text-[12px] cursor-pointer hover:underline">Games</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Surface Pro 9</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Surface Laptop 5</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Surface Laptop Go 2</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Microsoft Copilot</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Microsoft 365</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Windows 11 apps</h2>
+        </div>
+
+        <div class="mt-10 flex flex-col space-y-4">
+            <h1 class="text-[16px] font-semibold">Microsoft Store</h1>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Account Profile</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Download Center</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Microsoft Store Support</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Returns</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Order tracking</h2>
+        </div>
+
+        <div class="mt-10 flex flex-col space-y-4">
+            <h1 class="text-[16px] font-semibold">Education</h1>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Microsoft in education</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Devices for education</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Microsoft Teams for education</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Microsoft 365 education</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Office education</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Educator training and development</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Deals for students and parents</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Azure for students</h2>
+        </div>
+
+        <div class="mt-10 flex flex-col space-y-4">
+            <h1 class="text-[16px] font-semibold">Business</h1>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Microsoft Cloud</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Microsoft Security</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Azure</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Dynamics 365</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Microsoft 365</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Microsoft Advertising</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Copilot for Microsoft 365</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Microsoft Teams</h2>
+        </div>
+
+        <div class="mt-10 flex flex-col space-y-4">
+            <h1 class="text-[16px] font-semibold">Developer & IT</h1>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Developer Center</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Documentation</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Microsoft Learn</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Microsoft Tech Community</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Azure Marketplace</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">AppSource</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Microsoft Power Platform</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Visual Studio</h2>
+        </div>
+
+        <div class="mt-10 flex flex-col space-y-4">
+            <h1 class="text-[16px] font-semibold">Company</h1>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Careers</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">About Microsoft</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Company news</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Privacy at Microsoft</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Investors</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Security</h2>
+            <h2 class="text-[12px] cursor-pointer hover:underline">Sustainability</h2>
+        </div>
+    </footer>
+
+    <script src="logic.js"></script>
+</body>
+
+</html>
